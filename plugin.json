@@ -1,0 +1,14 @@
+{
+  "name": "cache-guard",
+  "displayName": "Cache & Context Guard",
+  "version": "1.0.0",
+  "description": "Zero-intrusion lifecycle hook plugin that reads usage-monitor telemetry to warn on Prompt Cache TTL idle gaps, 120k/150k context bloat, and cache-hit drops without touching usage-monitor files.",
+  "homepage": "https://github.com/wingkit123/agy-cache-guard",
+  "repository": "https://github.com/wingkit123/agy-cache-guard",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Check current session cache-guard status and thresholds",
+    "Summarize progress into HANDOFF.md before starting a new session",
+    "Customize cache-guard TTL or context warning thresholds"
+  ]
+}

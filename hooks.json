@@ -1,0 +1,32 @@
+{
+  "cache-guard": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "node scripts/guard.mjs SessionStart",
+        "timeout": 3
+      }
+    ],
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "node scripts/guard.mjs PreInvocation",
+        "timeout": 3
+      }
+    ],
+    "PostInvocation": [
+      {
+        "type": "command",
+        "command": "node scripts/guard.mjs PostInvocation",
+        "timeout": 3
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "node scripts/guard.mjs Stop",
+        "timeout": 3
+      }
+    ]
+  }
+}
